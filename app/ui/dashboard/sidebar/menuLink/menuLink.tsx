@@ -12,7 +12,7 @@ interface MenuLinkProps {
   };
 }
 
-const menuLink = ({ item }: MenuLinkProps) => {
+const MenuLink = ({ item }: MenuLinkProps) => {
 
   const pathname = usePathname();
 
@@ -24,4 +24,4 @@ const menuLink = ({ item }: MenuLinkProps) => {
   )
 }
 
-export default menuLink
+export default MenuLink
