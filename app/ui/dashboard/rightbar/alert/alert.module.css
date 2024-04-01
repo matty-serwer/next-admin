@@ -1,0 +1,46 @@
+.item {
+  background: var(--gradientOne);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.bgContainer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: 50%;
+}
+
+.bg {
+  object-fit: contain;
+  opacity: 0.2;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.notification {
+  font-weight: bold;
+}
+
+.subtitle {
+  color: var(--textSoft);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.description {
+  color: var(--textSoft);
+  font-size: 14px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}

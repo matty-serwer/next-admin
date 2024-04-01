@@ -1,0 +1,38 @@
+.tableElement {
+  /* padding: 200px; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* background-color: var(--bgSoft); */
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.userImage {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.status {
+  color: white;
+  font-size: 14px;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+
+.pending {
+  background-color: var(--warning);
+}
+
+.cancelled {
+  background-color: var(--alert);
+}
+
+.completed {
+  background-color: var(--secondary);
+}
