@@ -1,16 +1,19 @@
 .tableElement {
   /* padding: 200px; */
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
   /* background-color: var(--bgSoft); */
-  align-items: center;
+  /*align-items: center;*/
+  /*background-color: red;*/
+  text-align: center;
 }
 
 .user {
   display: flex;
   align-items: center;
   gap: 10px;
+  padding-left: 30px;
 }
 
 .userImage {
